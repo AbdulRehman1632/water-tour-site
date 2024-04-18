@@ -1,0 +1,249 @@
+
+body {font-family: popins}
+
+@font-face {
+    font-family:popins ;
+    src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family:rubik;
+    src: url(./assets/fonts/Rubik_Bubbles/RubikBubbles-Regular.ttf);
+}
+
+:root {--primary-color: rgb(35, 35, 155);
+--secondary-color:#000;
+--para-color:rgba(128, 128, 128, 0.884);
+--bg-color: #645c5c;}
+
+li {list-style-type: none ;}
+a {text-decoration: none;}
+
+.navbar {background-color: var(--bg-color) !important;}
+
+.navli li a{color: #000;font-weight: 600;}
+.button-wrapper {background-color: rgb(35, 35, 155);color: #fff; font-size: small; padding: 15px;font-weight: 500;}
+
+.button-wrapper:hover {background-color: #000 !important;color: #fff !important;}
+
+li {font-weight: 500;}
+
+li a:hover {color:  rgb(35, 35, 155) !important;}
+
+.first-wrapper {height: 700px;background-image: url(./assets/images/aaaaa.jpeg);background-repeat: no-repeat;background-size: cover;}
+
+
+.content {text-align: center;margin-top: 110px;color: #fff;padding: 10px;}
+
+.content h1 {font-size: 2.3em;color: var(--secondary-color);font-weight: 500; font-family: rubik;}
+
+.button-wrapper2 {background-color: rgb(35, 35, 155);color: #fff; font-size: small; padding: 15px;font-weight: 500;margin-top: 10px; border: none;}
+
+.button-wrapper2:hover {background-color: #000 !important;}
+
+.second-content h1{color: var(--primary-color);font-family: rubik;}
+
+.sub-heading h5{font-family: rubik;}
+
+.para {color: var(--para-color);}
+
+.product-heading {text-align: center;color: var(--primary-color);font-family: rubik;}
+
+.icon {text-align: right;font-size: 1.5em;}
+
+.card-button{padding: 10px 20px;}
+
+.card-text {font-size: 1em ;font-weight:400;}
+
+.card-title{font-weight: 800;}
+
+.price {font-size: 1.1em;font-weight: 600;}
+
+.card {background-color: var(--bg-color); border: none }
+
+.card:hover {transform :translatey(-10px);transition: 0.5s;}
+
+.nav input {margin-left:-10px}
+
+.follow a{font-size: 2em; color: var(--primary-color);}
+
+.nav i {font-size: 1em; }
+
+.text li a{margin-left:-30px;color: var(--secondary-color);}
+
+.footer {background-color: var(--bg-color)}
+
+.special li {list-style-type: circle;}
+
+.copy-right {text-align:center;background-color: rgb(0, 0, 0);padding: 5px 10px;font-size: 1em;}
+
+.copy-right p{color: #fff;}
+
+.product-heading {background-color: var(--bg-color);padding: 10px;}
+
+.text ,.customer ,.sign-up {color: var(--secondary-color);}
+
+.text h4,.customer h4,.sign-up h4{font-family: rubik;}
+
+.card h5,p{color: var(--secondary-color);}
+
+.fishing p{font-size: 1.3em;font-weight: 600;color: #fbc531;}
+
+/* watersports */
+
+.water-first {background-image: url(./assets/images/water3.jpeg);background-repeat: no-repeat;background-size: cover;height: 600px;}
+
+
+.content2 {text-align: center;margin-top: 110px;color: #fff;padding: 10px;}
+
+.content2 h1 {font-size: 2.3em;color: var(--primary-color);font-family: rubik;text-align: center;}
+
+.content2 p {font-size: 1.2em;color: #645c5c;font-weight: 500;}
+
+.button-wrapper3 {background-color: rgb(35, 35, 155);color: #fff; font-size: small; padding: 15px;font-weight: 500;margin-top: 20px; border: none;}
+
+.button-wrapper3:hover {background-color: #000 !important;}
+
+.w-h {color: var(--primary-color);font-family: rubik;}
+.top {margin-top:-15px;}
+
+.waters-card {background-color: #fff;}
+
+.card-content p {color: var(--para-color);}
+.card-content h5 {color: var(--secondary-color);}
+
+.select {background-color:var(--primary-color);padding: 10px;text-align: center;color: #fff;}
+
+.select:hover {background-color: var(--secondary-color);}
+
+.main-water {padding-top: 20px;border-radius: 5px;}
+
+.stars {margin-top: 35px;}
+
+.center-content {background-color: #B7C9F2;padding: 60px;}
+
+.experience {color: var(--primary-color);font-family: rubik;}
+
+.exp-content  {font-size: 1.2em;font-weight: 500;}
+
+/* --WATER-SPORTS-END */
+
+/* snorkeling-start */
+
+
+.diving-header {background-image: url(./assets/images/s5.jpeg);background-repeat: no-repeat;background-size: cover;height: 600px;}
+
+.diving-heading p {font-size: 1.2em;color: #fff1f1;font-weight: 400;}
+
+.diving-heading h1 {color: #bdb0b0;font-family: rubik;}
+
+.h-diving{background-color: rgb(100, 155, 17);padding: 15px;}
+
+.h-diving h1 {text-align: center;font-weight: 700;font-family: rubik;}
+
+.card-header h4 , .price h4{font-weight: 800;}
+
+.sp {font-weight: 800;}
+
+.undercard {padding:10px; box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+
+.loc p{font-weight: 700;}
+
+.book-btn {margin-top: 20px;}
+
+.book-btn a{padding: 8px;border-radius: 5px;background-color: #000;color: #fff;font-weight: 500px;}
+
+.book-btn a:hover {color: #000;background-color: #5a5353;font-weight: 500px;}
+
+.hours {margin-top: 20px;}
+
+.green {color: rgb(14, 202, 14);font-weight: 600;}
+
+.d-cards {padding: 50px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+.card-para p{color: rgb(230, 36, 36);font-weight: 600;}
+
+.d-cards:hover {transform :translatey(-10px);transition: 0.5s;}
+
+/* snorkeling-end */
+
+/* home-start */
+.banner-wrapper {background-image: url(./assets/images/pexels.jpeg);background-repeat: no-repeat;background-size: cover;height: 400px;}
+
+.home-para{text-align: center;}
+.home-para h3 {font-weight: 600;background-color: #5a53534d;padding: 10px;}
+.home-para h2 {font-weight: 900;background-color: #5a53534d;padding: 20px;}
+.special1 {font-family: rubik;font-size: 1.1em;color: blue;}
+
+.home {border-radius: 10px;}
+
+.card-home {box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+
+.card-title-home{padding: 10px;text-align: center;font-size: 1.8em;color: #000;font-family: rubik;background-color: rgb(99, 92, 92);}
+
+.card-title-home:hover {background-color: rgb(206, 6, 6);}
+
+.card-home:hover {transform :translatey(-10px);transition: 0.5s;}
+
+.bookh{background-color: #5a5353;padding: 40px;border-radius: 5px;}
+
+.booking h2 {color: #000;font-weight: 500;}
+
+.booking-btn a{color: #000;padding: 10px;border-radius: 4px;background-color: lightseagreen;font-size: 1.2em;font-weight: 500;}
+
+.booking-btn a:hover{background-color: #000;color: #fff;}
+
+.back {background-color: rgb(129, 182, 179);padding: 30px;border-radius: 5px;}
+
+.home-heading h3 {color: #000;font-family: rubik;}
+
+.home-paras p{color: #000;font-weight: 500;}
+
+.bold {font-weight: 700 !important;}
+
+.disc li{list-style-type: disc;color: #000;}
+
+.last {text-align: center;font-family: rubik;color: aqua;background-color: #000;padding: 20px;}
+
+/* home-end */
+
+/* comtact-start */
+
+
+input {border: 1px solid black;border-radius: 5px}
+
+input:focus{border: 1px solid rgb(45, 129, 150) ;outline: 1px solid blue;}
+
+.star {color: red;}
+
+.input {margin-top: 1px;}
+
+.components {margin-top: 20px;}
+
+.contact-left {margin-left: -30px;}
+
+.contact-left li a{font-size: 1.2em;color: #000;}
+
+.contact-follow i{color: #000; }
+
+.feedback {margin-top: 30px;}
+
+textarea {border: 1px solid black;border-radius: 5px}
+
+textarea:focus{border: 1px solid rgb(45, 129, 150) ;outline: 1px solid blue;}
+
+.second-box {background-color: rgba(34, 126, 126, 0.644);padding: 30px;border-radius: 5px;}
+
+.first-box  {background-color: pink;padding: 30px;border-radius: 5px;}
+
+.contact-btn {text-align: center;}
+
+.heading-contact {text-align: center;}
+
+.contact1 {background-image:url(./assets/images/ds.jpeg);padding: 20px;color: #fff;font-family: rubik;}
+
+.sub-contact h2 {color: red;font-weight: 1000;box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;padding: 20px;}
+
+.sub-contact p {background-color: yellow;font-size: 1em;padding: 10px;font-weight: 500px;box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
+
+/* contact-end */
